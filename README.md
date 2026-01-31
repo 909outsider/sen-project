@@ -1,7 +1,7 @@
 # SEN / SxN Manifesto — Draft v1.0
 ### Structured English Notation → Structured x Notation  
 A New Structural Literacy for the AI Era  
-© 2026 Saida Toa — SEN Project
+© 2026 Toa Saida — SEN Project
 
 ---
 
@@ -205,6 +205,6 @@ SEN Project では、将来の実装・標準化を見据え、
 ---
 
 ## License
-© 2026 Saida Toa — SEN Project  
+© 2026 Toa Saida — SEN Project  
 All rights reserved.
 
