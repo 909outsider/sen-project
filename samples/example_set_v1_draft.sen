@@ -1,0 +1,98 @@
+# SEN Example Set v1.0 (Draft)
+# Author: Toa Saida
+# Purpose: Demonstration of SEN structure, modifiers, and nested dependencies
+# Status: Draft — This example set illustrates the conceptual direction of SEN.
+# Notes: The structure, indentation rules, and notation are subject to refinement.
+
+# --- Example 1: When節（副詞句）＋ 主文 ---
+# When節が「知らなかった」を修飾する副詞句として機能している
+
+AdvP(When:〜したとき
+        S(I:私が)
+        V(moved:引っ越した)
+            (to the city:その街へ → moved)
+            (last year:去年 → moved)
+     → didn’t know)
+
+S(I:私は)
+V(didn’t know:知らなかった)
+    O(anyone:誰も)
+
+
+# --- Example 2: spent + 動名詞（多層入れ子構造） ---
+# walking が spent を修飾し、その内部に trying が入れ子で続く
+# trying の内部に how節と what節が並列で入る
+# what節の中に空主語（Ø）が現れるのがポイント
+
+S(I:私は)
+V(spent:過ごした)
+    O(most of my evenings:夕方のほとんどを)
+    (walking around the neighborhood:その近所を歩き回りながら → spent)
+        (around the neighborhood:その近所の周りを → walking)
+        (trying to understand:理解しようとして → walking)
+            how:どのように
+                S(people:人々が)
+                V(lived:暮らしていた)
+                → understand
+
+            and:そして
+
+            what:何が
+                S(Ø)                     # 空主語（ゼロ主語）
+                V(made:〜が作った)
+                    O(the place:その場所を)
+                    C(feel alive:生き生きと感じさせる)
+                → understand
+
+
+# --- Example 3: found + 名詞句（後置修飾） ---
+# hidden が café を後置修飾している構造
+# behind句は hidden にかかる
+
+AdvP(One day:ある日 → found)
+
+S(I:私は)
+V(found:見つけた)
+    O(a small café:小さなカフェを)
+        (hidden behind a row of tall apartment buildings:高いアパートの列の後ろに隠れた → café)
+            (behind a row of tall apartment buildings:高いアパートの列の後ろに → hidden)
+
+
+# --- Example 4: welcomed + as if節 ---
+# as if節が welcomed を修飾する副詞句として機能
+# as if の内部は「仮想の状態」を表す節構造
+
+S(The owner:その店主は)
+    (an elderly woman:老婦人で
+        (with a warm smile:温かい笑顔の → woman)
+     → owner)
+V(welcomed:歓迎した)
+    O(me:私を)
+    (as if:まるで〜かのように
+        S(I:私が)
+        V(had been:〜だった)
+            C(a regular customer:常連客)
+                (for years:何年も → customer)
+     → welcomed)
+
+
+# --- Example 5: has become + 補語 + 不定詞句 ---
+# to think が place を修飾する後置不定詞
+
+AdvP(Since then:それ以来 → has become)
+
+S(the café:そのカフェは)
+V(has become:〜になった)
+    C(my favorite place:私のお気に入りの場所に)
+        (to think:考えるための → place)
+
+
+# --- Example 6: bring + 不定詞句（目的） ---
+# to write が bring を修飾し、その内部に about句が入る
+
+S(I:私は)
+V(bring:持っていく)
+    O(my notebook:私のノートを)
+    (there:そこへ → bring)
+    (to write down ideas:アイデアを書き留めるために → bring)
+        (about my new life:私の新しい生活についての → ideas)
