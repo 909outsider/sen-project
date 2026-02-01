@@ -22,6 +22,27 @@ SEN（Structured English Notation）は、英語の構造を可視化するた�
 
 ---
 
+## Sample Files (Draft)
+
+The repository includes an example SEN file located in  
+`samples/example_set_v1_draft.sen`.
+
+This example set is provided as a **Draft** to illustrate the conceptual direction of SEN.  
+Its structure, indentation rules, and notation are **provisional** and will be refined  
+as the specification evolves.
+
+The purpose of this Draft example is to:
+
+- demonstrate how SEN expresses structural dependencies  
+- show how modifiers and nested clauses can be visualized  
+- provide a reference for educators and developers during early discussions  
+- serve as a prototype before formalizing the notation in the specification  
+
+This file is **not** part of the formal specification and should be treated as an  
+exploratory sample.
+
+---
+
 # Manifesto (Draft v1.0)
 
 ## 1. SEN は、英語の構造を可視化するための記法である
@@ -207,4 +228,3 @@ SEN Project では、将来の実装・標準化を見据え、
 ## License
 © 2026 Toa Saida — SEN Project  
 All rights reserved.
-
